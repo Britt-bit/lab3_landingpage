@@ -1,0 +1,36 @@
+$green: #39ff14;
+$purple: #5224BC;
+$white: #fafafa;
+$grey: #333333;
+$black: #101010;
+
+@font-face {
+    font-family: 'adobe';
+    src: url(./fonts/AdobeFnt22.lst);
+  }
+  @font-face {
+    font-family: 'danield';
+    src: url(./fonts/danielbd.ttf);
+  }
+  @font-face {
+    font-family: 'helvetica';
+    src: url(./fonts/HelveticaNeue.ttc);
+  }
+  @font-face {
+    font-family: 'minion';
+    src: url(./fonts/MinionPro-Regular.otf);
+  }
+
+span{
+    color: $green;
+}
+
+header{
+    h1{
+        font-family: 'helvetica';
+        font-size: 5em;
+        color: $white;
+    }
+    background-image: url(../images/logo.png);
+    height: 100%;
+}

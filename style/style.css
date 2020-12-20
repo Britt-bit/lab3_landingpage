@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'adobe';
+  src: url(./fonts/AdobeFnt22.lst); }
+@font-face {
+  font-family: 'danield';
+  src: url(./fonts/danielbd.ttf); }
+@font-face {
+  font-family: 'helvetica';
+  src: url(./fonts/HelveticaNeue.ttc); }
+@font-face {
+  font-family: 'minion';
+  src: url(./fonts/MinionPro-Regular.otf); }
+span {
+  color: #39ff14; }
+
+header {
+  background-image: url(../images/logo.png);
+  height: 100%; }
+  header h1 {
+    font-family: 'helvetica';
+    font-size: 5em;
+    color: #fafafa; }
+
+/*# sourceMappingURL=style.css.map */
