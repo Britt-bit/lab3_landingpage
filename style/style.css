@@ -1,24 +1,103 @@
 @font-face {
-  font-family: 'adobe';
+  font-family: adobe;
   src: url(./fonts/AdobeFnt22.lst); }
 @font-face {
-  font-family: 'danield';
+  font-family: danield;
   src: url(./fonts/danielbd.ttf); }
 @font-face {
-  font-family: 'helvetica';
+  font-family: helvetica;
   src: url(./fonts/HelveticaNeue.ttc); }
 @font-face {
-  font-family: 'minion';
+  font-family: minion;
   src: url(./fonts/MinionPro-Regular.otf); }
+html, body {
+  margin: 0;
+  height: 100%; }
+
 span {
   color: #39ff14; }
 
 header {
   background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
   height: 100%; }
   header h1 {
     font-family: 'helvetica';
     font-size: 5em;
     color: #fafafa; }
+
+button {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 1em; }
+
+.download {
+  height: 100%;
+  background-image: url(../images/phone2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-transform: uppercase;
+  text-align: right; }
+  .download h1 {
+    font-family: helvetica;
+    font-size: 8em;
+    position: relative;
+    top: 25%;
+    margin-right: 12vh; }
+  .download .green {
+    color: #39ff14;
+    margin-top: -0.5em; }
+  .download .buttons {
+    position: relative;
+    top: 20%;
+    margin-right: 12vh; }
+
+.features {
+  background-color: #5224BC;
+  height: 40vh;
+  color: #fafafa;
+  font-family: helvetica;
+  font-size: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.appFeatures {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5em; }
+  .appFeatures img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .appFeatures h3 {
+    color: #5224BC;
+    font-family: helvetica;
+    font-size: 3em; }
+  .appFeatures p {
+    font-size: 1.5em;
+    font-family: 'adobe'; }
+
+.right {
+  text-align: right; }
+
+.footer {
+  background-color: #5224BC;
+  height: 40vh;
+  color: #fafafa;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 1em; }
+  .footer h2 {
+    font-family: adobe;
+    font-size: 5em; }
+  .footer .buttons {
+    top: 20%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,16 +3,16 @@ body {
   padding: 0; }
 
 @font-face {
-  font-family: 'adobe';
+  font-family: adobe;
   src: url(./fonts/AdobeFnt22.lst); }
 @font-face {
-  font-family: 'danield';
+  font-family: danield;
   src: url(./fonts/danielbd.ttf); }
 @font-face {
-  font-family: 'helvetica';
+  font-family: helvetica;
   src: url(./fonts/HelveticaNeue.ttc); }
 @font-face {
-  font-family: 'minion';
+  font-family: minion;
   src: url(./fonts/MinionPro-Regular.otf); }
 .navigation {
   height: 5em;

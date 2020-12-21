@@ -5,21 +5,26 @@ $grey: #333333;
 $black: #101010;
 
 @font-face {
-    font-family: 'adobe';
+    font-family: adobe;
     src: url(./fonts/AdobeFnt22.lst);
   }
   @font-face {
-    font-family: 'danield';
+    font-family: danield;
     src: url(./fonts/danielbd.ttf);
   }
   @font-face {
-    font-family: 'helvetica';
+    font-family: helvetica;
     src: url(./fonts/HelveticaNeue.ttc);
   }
   @font-face {
-    font-family: 'minion';
+    font-family: minion;
     src: url(./fonts/MinionPro-Regular.otf);
   }
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
 
 span{
     color: $green;
@@ -32,5 +37,96 @@ header{
         color: $white;
     }
     background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
     height: 100%;
+}
+
+
+button{
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 1em;
+    
+ }
+
+.download{
+    height: 100%;
+    background-image: url(../images/phone2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-transform: uppercase;
+    text-align: right;
+    h1{
+        font-family: helvetica;
+        font-size: 8em;
+        position: relative;
+        top: 25%;
+        margin-right: 12vh; 
+    }
+    .green{
+        color: $green;
+        margin-top: -0.5em;
+    }
+
+    .buttons{
+        position: relative;
+        top: 20%;
+        margin-right: 12vh;
+    }
+}
+
+.features{
+    background-color: $purple;
+    height: 40vh;
+    color: $white;
+    font-family: helvetica;
+    font-size: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appFeatures{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5em;
+    img{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        color: $purple;
+        font-family: helvetica;
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.5em;
+        font-family: 'adobe';
+    }
+}
+.right{
+    text-align: right;
+}
+
+.footer{
+    background-color: $purple;
+    height: 40vh;
+    color: $white;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    h2{
+        font-family: adobe;
+        font-size: 5em;
+    }
+    .buttons{
+        top: 20%;
+    }
 }
