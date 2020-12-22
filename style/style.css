@@ -14,13 +14,14 @@ html, body {
   margin: 0;
   height: 100%; }
 
+/*------  The app -----*/
 span {
   color: #39ff14; }
 
 header {
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
-  height: 100%; }
+  height: 100vh; }
   header h1 {
     font-family: 'helvetica';
     font-size: 5em;
@@ -99,5 +100,49 @@ button {
     font-size: 5em; }
   .footer .buttons {
     top: 20%; }
+
+/*------- support us ------*/
+.support-header {
+  color: #fafafa;
+  max-width: 100%;
+  font-family: helvetica; }
+  .support-header h1 {
+    font-size: 12em;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.2em; }
+  .support-header p {
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.2em;
+    width: 70%; }
+  .support-header .column {
+    width: 50%;
+    position: relative;
+    top: 25%; }
+  .support-header .column1 {
+    float: left; }
+  .support-header .column2 {
+    float: right; }
+
+.support {
+  margin: 0 2em;
+  padding-bottom: 2em;
+  color: #fafafa;
+  font-family: helvetica; }
+  .support article {
+    margin: 5em 2em;
+    background-color: #5224BC;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 6px 6px 20px #333333; }
+    .support article h2 {
+      font-size: 2.5em;
+      margin-bottom: 0; }
+    .support article p {
+      font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
