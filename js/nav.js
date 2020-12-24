@@ -18,8 +18,8 @@
 
 document.addEventListener('scroll',function(){
 var y = window.scrollY;
-
-if(y>648){
+console.log(y);
+if(y>648 || y>475){
 
 document.querySelector(".navbar").id ="bg-show"; 
 }else{
