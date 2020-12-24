@@ -258,66 +258,22 @@ width: 49%;
     margin-bottom: 7px;
 }
 
-
-/*
-
-.card-footer .row{
-    justify-content: center;
-}
-
-
-.card-footer.team-footer {
-   
-    background-color: rgba(0,0,0,.0); 
-     border-top: 1px solid rgba(0,0,0,.0); 
-    
-}
-
-
-.card.team-card{
-    background-color: #7d53de;
-    color: white;
-    
-box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.473);
-}
-
-.socialIcon{
-    text-decoration: none;
-    font-style: none;
-    color: white;
-    font-size: 28px;
-
-
-}
-
-.socialIcon:hover{
-    color: white;
-}
-*/
-
 .socialIcon{
     text-decoration: none;
     font-style: none;
     color: #333333;
     font-size: 28px;
-
-
 }
-
-
 .card.team-card{
     background-color:none;
     color: #333333;
     border: none;
-  
-    
 
 }
 
 .card.team-card .card-body{
     padding-top: 0;
-  
-    
+
 
 }
 
