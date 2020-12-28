@@ -132,11 +132,14 @@ width: 100%;
     
 }
 
-.article1 div h1{
-   font-size: 218%;
+
+
+.article1 div h1 {
+    font-size: 218%;
     color: #7d53de;
-    margin-left: -30px;
+    margin-left: 0px;
 }
+
 
 .article3 div h1{
 font-size: 148%;
@@ -402,6 +405,126 @@ transform: scale(1.1);
 /*---------------------------END-SUPPORT-US-------------------------------------*/
 
 
+/*-------------------------------The-App----------------------------------------*/
+
+#welcome-section-TheApp{
+background-image: none!important;
+background-color: none!important;
+}
+
+.header-TheApp {
+    padding-top: 0px!important;
+}
+
+
+.header-TheApp article img {
+    width: 40%;
+}
+
+
+/*
+.apple-Google-Store img{
+    width: 20%!important;
+}*/
+.apple-Google-Store img {
+    width: 40%!important;
+}
+
+
+
+
+.apple-Google-Store span img {
+    width: 33%!important;
+}
+
+.feature{
+
+width: 100%;
+background-color: #7d53de;
+
+}
+
+
+section.app-features {
+    margin-top: -5px;
+}
+
+.the-app-row{
+
+    padding: 0!important;
+}
+
+
+
+
+.feature-content-box {
+    padding: 50px 20px;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.the-app-row h2{
+
+    padding: 50px 0!important;
+    margin: 0!important;
+    color: white!important;
+}
+
+
+.feature-phone{
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.feature-phone img{
+    /*width: 100%;*/
+       width: 302px;
+
+}
+
+.feature-list-right,.feature-list-left{
+         padding: 0;
+         font-size: 12px;
+         
+}
+.feature-list-right ul,.feature-list-left ul{
+       text-align: left!important;
+       margin: 20px 0;
+}
+
+.feature-list-right li,.feature-list-left li{
+        border: 0.5px solid rgba(185, 185, 185, 0.699);
+        text-align: center;
+}
+
+.feature-list-left  h3, .feature-list-right li h3{
+    color: #7d5dd8;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.feature-list-left  p, .feature-list-right li p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+.pre-fouter {
+    width: 100%;
+    padding: 80px 20px;
+    background: #7d5dd8;
+    text-align: center;
+}
+
+.pre-fouter h1 {
+    font-size: 1.5rem;
+}
+
+
+
 /* TABLET VERSION */
         @media only screen and (min-width: 768px) {
 
@@ -415,9 +538,22 @@ transform: scale(1.1);
     background-position-x: -90px;
 }
 
-          
-        }
 
+
+.article1 div h1 {
+    font-size: 499%;
+}
+
+
+}
+
+
+.feature-phone{
+
+    display: grid;
+
+
+}
 
 
         
@@ -664,12 +800,69 @@ font-size: 618%;
 
 
 /*-------------------------END-Desktop-SUPPORT-US--------------------------------------*/
+/*-------------------------END-Desktop-The-APP--------------------------------------*/
+.article1 div h1{
+font-size: 669%;
+    margin-left: -30px;
+}
 
 
+.header-TheApp article img{
+    width: 40%;
+}
+.apple-Google-Store img{
+    width: 20%!important;
+}
+.apple-Google-Store span img{
+    width:18%!important
+}
+
+.header-TheApp {
+    padding-top: 70px!important;
+}
+.feature-phone{
+
+    
+    padding: 0;
+    display: grid;
+    justify-content: center;
 
 
+}
+
+.feature-list-right ul{
+       text-align: left!important;
+}
+
+.feature-list-left ul{
+ text-align: right!important;
+}
 
 
+.feature-content-box{
+    padding: 50px 0;
+   
+}
+
+
+.feature-list-right li{
+        border: none;
+        text-align: left;
+}
+
+.feature-list-left li{
+    border: none;
+     text-align: right;
+
+}
+.pre-fouter h1 {
+    font-size: 3.5rem;
+}
+
+
+.pre-fouter {
+    padding: 80px 180px;
+}
 
  }
 /* END DESKTOP VERSION */
