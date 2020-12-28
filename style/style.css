@@ -164,7 +164,7 @@ span{
 
 footer {
    padding: 20px;
-    background: #7d53de;
+    background: #333333;
 }
 
 .footer_content p{
@@ -301,6 +301,105 @@ width: 49%;
 
 /*---------------------------END-WHO-WE-ARE-------------------------------------*/
 
+/*-------------------------------SUPPORT-US-------------------------------------*/
+
+#jumbotron-Support{
+   padding: 130px 0;
+    padding-bottom: 180px;
+    margin: 0;
+}
+
+
+#jumbotron-Support h1{
+text-align: center;
+font-size: 4rem;
+
+}
+
+#jumbotron-Support p{
+text-align: center;
+    width: 85%;
+    margin: 0 auto;
+     font-size: 15px;
+}
+
+.support-card
+    {
+   
+   box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.55);
+ 
+   overflow: hidden;
+   border: none;
+   border-radius: 20px;
+    
+}
+
+.support-block{max-width: 90%;
+}
+.support-us{
+margin: 140px auto;
+padding: 0 15px;
+}
+
+.row-support-us{
+        justify-content: center;
+}
+    
+
+
+.suport-img{
+width: 100%;
+    text-align: center;
+    background: #7d5dd8;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    
+    padding: 20px 0;
+}
+
+.suport-img img{
+transition: transform .7s;
+      width: 50%;
+}
+
+.support-card:hover img{
+transform: scale(1.1);
+}
+
+.support-card-footer{
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.support-card-footer .support-button{
+   background-color: #7d5dd8!important;
+   outline:none!important;
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.support-card-footer .support-button:hover{
+   background-color: #664ab6!important;
+   ooutline:none!important;
+  box-shadow: none!important;
+  border: none!important;
+}
+
+.support-card-footer .support-button:focus{
+  background-color: #7d5dd8!important;
+   outline:none!important;
+  box-shadow: none!important;border: none!important;
+
+  
+}
+
+.support-card-footer .socialIcon{
+  color: #7d5dd8;
+}
+
+/*---------------------------END-SUPPORT-US-------------------------------------*/
 
 
 /* TABLET VERSION */
@@ -315,8 +414,13 @@ width: 49%;
    background-position-y: 40px;
     background-position-x: -90px;
 }
+
           
         }
+
+
+
+        
 /* END TABLET VERSION */
 
 
@@ -523,6 +627,44 @@ font-size: 618%;
     align-self: center;
 }
 /*-------------------------END-Desktop-WHO-WE-ARE--------------------------------------*/
+
+/*-----------------------------Desktop-SUPPORT-US--------------------------------------*/
+#jumbotron-Support p {
+    text-align: left;
+    width: 34%;
+    /* margin: 0 auto; */
+    font-size: 22px;
+    margin-left: 50px;
+    line-height: 42px;
+    letter-spacing: 3px;
+}
+/*#jumbotron-Support {
+    padding: 130px 0;
+    padding-bottom: 180px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}*/
+
+#jumbotron-Support {
+          padding: 232px 0;
+    display: flex;
+    padding-bottom: 100px;
+    flex-direction: row;
+}
+
+#jumbotron-Support h1 {
+    font-size: 7rem;
+    text-align: end;
+    line-height: 113px;
+    width: 50%;
+    padding-left: 6px;
+}
+
+
+
+/*-------------------------END-Desktop-SUPPORT-US--------------------------------------*/
+
 
 
 
