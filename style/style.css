@@ -574,7 +574,9 @@ section.app-features {
 
  /* DESKTOP VERSION */
         @media only screen and (min-width: 980px) {
-            li.nav-item.active {
+    
+            
+li.nav-item.active {
     border-bottom: 3px solid #39ff14;
 }
 
