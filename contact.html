@@ -6,7 +6,9 @@
     <title>Don't be quiet</title>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
    <link rel="stylesheet" href="https://use.typekit.net/hyj5kfq.css">
+   <link rel="stylesheet" href="./style/contact.css"> 
    <link rel="stylesheet" href="./style/style.css">
+	
    
 </head>
 <body>
@@ -25,9 +27,9 @@
       <li class="nav-item">
         <a class="nav-link" href="who.html">the team</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="who.html">participate</a>
-      </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="who.html">participate</a>
+          </li>-->
       <li class="nav-item active">
         <a class="nav-link " href="contact.html">Contact</a>
       </li>
@@ -39,7 +41,76 @@
 </nav>
     <!--END-Navbar-->
     
-   content hier
+   	<!-- ==============================================
+		CONTACT
+		=============================================== -->
+		<section id="contact" class="add-padding">
+		
+			<div class="container text-center">
+				
+				<div class="row">
+				
+					<div class="col-sm-6 col-md-5 text-right d1">
+					
+						<h1 class="big-text">Get in touch</h1>
+
+						<p>Contact us if you're looking for more information around our project. Or if you are interested in a partnership.</p>
+						
+						<hr>
+							<ul class="social-media-list">
+								<li><a href="#" target="_blank" class="contact-icon">
+									<i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</li>
+								<li><a href="#" target="_blank" class="contact-icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i></a>
+								</li>
+								<li><a href="#" target="_blank" class="contact-icon">
+									<i class="fa fa-instagram" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						<hr>
+					
+					</div>
+				
+					<!--=== Contact Form ===-->
+
+					<form id="contact-form" class="col-sm-6 col-md-offset-1 d3" action="includes/mail.php" method="post" novalidate>
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-name">Name</label>
+						  <div class="controls">
+							<input id="contact-name" name="contactName" placeholder="Name" class="form-control requiredField" data-new-placeholder="Name" type="text" data-error-empty="Please enter your name">
+							<i class="fa fa-user"></i>
+						  </div>
+						</div><!-- End name input -->
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-mail">Email</label>
+						  <div class=" controls">
+							<input id="contact-mail" name="email" placeholder="Email" class="form-control requiredField" data-new-placeholder="Email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<i class="fa fa-envelope"></i>
+						  </div>
+						</div><!-- End email input -->
+						
+						<div class="form-group">
+						  <label class="control-label" for="contact-message">Message</label>
+							<div class="controls">
+								<textarea id="contact-message" name="message"  placeholder="Message" class="form-control requiredField" data-new-placeholder="Message" rows="6" data-error-empty="Please enter your message"></textarea>
+								<i class="fa fa-comment"></i>
+							</div>
+						</div><!-- End textarea -->
+						
+						<p><button name="submit" type="submit" class="btn btn-success btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+						<input type="hidden" name="submitted" id="submitted" value="true" />
+						
+					</form><!-- End contact-form -->
+					
+				</div>
+				
+			</div>
+		
+		</section>
+		
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>      
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
