@@ -7,8 +7,8 @@
     $sender_company = "contact@dontbequiet.be";
 
     // CLIENT INFORMATION
+    $client_name = $_GET["name"];
     $receiver_client = $_GET["email"];
-    $client_name = $_GET["contactName"];
     $client_message = $_GET["message"];
 
     // MAIL INFORMATION
@@ -31,21 +31,15 @@
     $mail_company_message = "Er is een nieuw bericht van ".$client_name.' ('.$receiver_client.')'."\r\n\r\n".$mail_client_message;
 
     // FUNCTION TO SEND MAILS
-    function  mailTo($receiverClient, $mailSubjectClient, $mailClientMessage, $mailHeader){
-        mail($receiverClient, $mailSubjectClient, $mailClientMessage, $mailHeader);   
+    function  mailTo($receiverClient, $mailSubjectClient, $mailClientMessage, $mailHeader, $senderCompany, $mailSubjectCompany, $mailCompanyMessage){
+        mail($receiverClient, $mailSubjectClient, $mailClientMessage, $mailHeader);
+        mail($senderCompany, $mailSubjectCompany, $mailCompanyMessage, $mailHeader);   
     }
 
-    
-    mailTo($receiver_client, $mail_subject_client, $mail_client_message, $mail_header);
-    mailTo($sender_company, $mail_subject_company, $mail_company_message, $mail_header);
-    header('Location: ../contact.html');
- 
-    
     // SENDING MAILS
     // Check if contact information is given
     if(!empty($client_name) || !empty($client_message) || !empty($receiver_client)){
-        mailTo($receiver_client, $mail_subject_client, $mail_client_message, $mail_header);
-        mailTo($sender_company, $mail_subject_company, $mail_company_message, $mail_header);
+        mailTo($receiver_client, $mail_subject_client, $mail_client_message, $mail_header, $sender_company, $mail_subject_company, $mail_company_message);
         header('Location: ../contact.html');
     }else{
         $message = "Something went wrong.";
