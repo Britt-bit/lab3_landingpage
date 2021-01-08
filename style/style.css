@@ -297,8 +297,7 @@ width: 49%;
 }
 
 .card.team-card .card-body{
-    padding-top: 0;
-
+    padding-top: 0
 
 }
 
@@ -349,13 +348,15 @@ text-align: center;
 
 .support-card
     {
-   
    box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.55);
- 
-   overflow: hidden;
+    overflow: hidden;
    border: none;
    border-radius: 20px;
     
+}
+
+.card-text{
+    text-align: justify;
 }
 
 .support-block{max-width: 90%;
@@ -421,6 +422,10 @@ transform: scale(1.1);
 
 .support-card-footer .socialIcon{
   color: #7d5dd8;
+}
+
+.fab:hover {
+    color: #38ff14;
 }
 
 /*---------------------------END-SUPPORT-US-------------------------------------*/
