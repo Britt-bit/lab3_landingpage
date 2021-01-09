@@ -82,14 +82,19 @@ width: 75%;
 
 .btn.btn-success
 {
-font-size: 22px;
-    background: #38ff14;
-    color:  #1d1d1b;
+    color: #38ff14;
+    background: #1d1d1b;
+    font-size: 22px;
     border: 1px solid #38ff14;
     padding: 8px 50px;
 }
+.btn.btn-success:hover {
+    background: #38ff14;
+    color:  #1d1d1b;
+}
 .allRightReserved{
     -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
     color: white;
     width: 176px;
     font-size: 12px;
@@ -190,7 +195,12 @@ footer {
     font-size: 12px;
 }
 
-
+.fa.fa-envelope:hover{
+    color: #38ff14;
+}
+.fa.fa-instagram, .fa.fa-facebook, .fa.fa-twitter {
+    color: white;
+}
 
 /*----------------------------WHO-WE-ARE-------------------------------------*/
 
@@ -247,7 +257,7 @@ width: 49%;
 .profil-img {
     width: 148px;
     height: 148px;
-    background: red;
+    background: black;
     border-radius: 100px;
     margin: 23px auto;
     overflow: hidden;
@@ -287,8 +297,7 @@ width: 49%;
 }
 
 .card.team-card .card-body{
-    padding-top: 0;
-
+    padding-top: 0
 
 }
 
@@ -312,7 +321,6 @@ width: 49%;
    .team-name{
        margin-bottom: 6px;
    }
-
 
 /*---------------------------END-WHO-WE-ARE-------------------------------------*/
 
@@ -340,13 +348,15 @@ text-align: center;
 
 .support-card
     {
-   
    box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.55);
- 
-   overflow: hidden;
+    overflow: hidden;
    border: none;
    border-radius: 20px;
     
+}
+
+.card-text{
+    text-align: justify;
 }
 
 .support-block{max-width: 90%;
@@ -397,7 +407,7 @@ transform: scale(1.1);
 
 .support-card-footer .support-button:hover{
    background-color: #664ab6!important;
-   ooutline:none!important;
+   outline:none!important;
   box-shadow: none!important;
   border: none!important;
 }
@@ -412,6 +422,10 @@ transform: scale(1.1);
 
 .support-card-footer .socialIcon{
   color: #7d5dd8;
+}
+
+.fab:hover {
+    color: #38ff14;
 }
 
 /*---------------------------END-SUPPORT-US-------------------------------------*/
@@ -637,16 +651,21 @@ width: 37%;
 
 .btn.btn-success
 {
-font-size: 22px;
-    background: none;
     color: #38ff14;
+    background: #1d1d1b;
+    font-size: 22px;
     border: 1px solid #38ff14;
     padding: 8px 50px;
+}
+.btn.btn-success:hover {
+    background: #38ff14;
+    color:  #1d1d1b;
 }
 
 
 .allRightReserved{
     -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
     color: white;
     width: 170px;
     position: relative;
