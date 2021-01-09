@@ -1,0 +1,193 @@
+$green: #39ff14;
+$purple: #5224BC;
+$white: #fafafa;
+$grey: #333333;
+$black: #101010;
+
+@font-face {
+    font-family: adobe;
+    src: url(./fonts/AdobeFnt22.lst);
+  }
+  @font-face {
+    font-family: danield;
+    src: url(./fonts/danielbd.ttf);
+  }
+  @font-face {
+    font-family: helvetica;
+    src: url(./fonts/HelveticaNeue.ttc);
+  }
+  @font-face {
+    font-family: minion;
+    src: url(./fonts/MinionPro-Regular.otf);
+  }
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+/*------  The app -----*/
+
+span{
+    color: $green;
+}
+
+header{
+    h1{
+        font-family: 'helvetica';
+        font-size: 5em;
+        color: $white;
+    }
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+button{
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 1em;
+    
+ }
+
+.download{
+    height: 100%;
+    background-image: url(../images/phone2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-transform: uppercase;
+    text-align: right;
+    h1{
+        font-family: helvetica;
+        font-size: 8em;
+        position: relative;
+        top: 25%;
+        margin-right: 12vh; 
+    }
+    .green{
+        color: $green;
+        margin-top: -0.5em;
+    }
+
+    .buttons{
+        position: relative;
+        top: 20%;
+        margin-right: 12vh;
+    }
+}
+
+.features{
+    background-color: $purple;
+    height: 40vh;
+    color: $white;
+    font-family: helvetica;
+    font-size: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appFeatures{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5em;
+    img{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        color: $purple;
+        font-family: helvetica;
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.5em;
+        font-family: 'adobe';
+    }
+}
+.right{
+    text-align: right;
+}
+
+.footer{
+    background-color: $purple;
+    height: 40vh;
+    color: $white;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    h2{
+        font-family: adobe;
+        font-size: 5em;
+    }
+    .buttons{
+        top: 20%;
+    }
+}
+
+/*------- support us ------*/
+.support-header{
+    h1{
+        font-size: 12em;
+        text-align: right;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0.2em;
+        
+    }
+    p{
+        font-size: 3.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.2em;
+        width: 70%;
+    }
+    .column{
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .column1 {
+        float: left;
+    }
+    .column2{
+        float: right;
+    }
+    color: $white;
+    max-width: 100%;
+    font-family: helvetica;
+}
+
+
+.support{
+    margin: 0 2em;
+    padding-bottom: 2em;
+    color: $white;
+    font-family: helvetica;
+    article{
+        margin: 5em 2em;
+        background-color: $purple;
+        border-radius: 20px;
+        padding: 2em;
+        box-shadow: 6px 6px 20px $grey;
+        h2{
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+        p{
+            font-size: 1.5em;
+        }
+        
+    }
+
+}
