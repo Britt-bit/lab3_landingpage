@@ -1,0 +1,19 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dontbequiet\.be\.martinediederich\.be$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dontbequiet\.be\.martinediederich\.be$
+RewriteRule ^/?$ "http\:\/\/dontbequiet\.be\/" [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^dontbequiet\.be$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dontbequiet\.be$
+RewriteRule ^/?$ "https\:\/\/dontbequiet\.be\/" [R=301,L]
+
+ErrorDocument 404 /error404.html
+
+Redirect 301 http://dontbequiet.be/ https://dontbequiet.be/
+Redirect 301 http://www.dontbequiet.be/ https://www.dontbequiet.be/
+
+RewriteEngine On
+rewritecond %{http_host} ^dontbequiet.be
+rewriteRule ^(.*) https://www.dontbequiet.be/$1 [R=301,L]
